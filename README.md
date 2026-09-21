@@ -12,7 +12,7 @@
 [![Tests](https://img.shields.io/badge/tests-27%2F27%20passing-success)](#testing)
 [![License](https://img.shields.io/badge/license-not%20yet%20specified-lightgrey)](#license)
 
-[Download Android APK](https://github.com/anandr-git/orbitflow/releases) · [Features](#features) · [Quick Start](#quick-start) · [Architecture](#architecture)
+[Download Android APK](https://github.com/anandr-git/orbitflow/releases/latest) · [Features](#features) · [Quick Start](#quick-start) · [Architecture](#architecture)
 
 </div>
 
@@ -164,12 +164,18 @@ Additional captures (tablet metrics, notification shade, intermediate QA) live u
 
 ## Install on Android
 
-1. Download the latest APK from **[GitHub Releases](https://github.com/anandr-git/orbitflow/releases)**.
+**Latest release:** [OrbitFlow v3.1.0 on GitHub Releases](https://github.com/anandr-git/orbitflow/releases/latest)
+
+1. Download `OrbitFlow-Android.apk` from the [latest GitHub Release](https://github.com/anandr-git/orbitflow/releases/latest).
 2. Open the APK on your Android phone or tablet.
 3. Allow installation from that source when Android prompts you.
 4. Launch **OrbitFlow**.
 
 No root or unsafe sideload bypasses are required — use the normal Android install flow for unknown apps from a trusted release page.
+
+SHA-256 of the current Android APK:
+
+`d50169ebb6d1ae72f3a3abf73a405012c3a07beecdd7638116ca42ba6f4f348a`
 
 ---
 
