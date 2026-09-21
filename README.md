@@ -4,184 +4,118 @@
 
 ### Personal Productivity & Study OS
 
-**Plan your study, organize your work, focus deeply, and understand your progress — all in one offline-first productivity app.**
+**Plan. Focus. Complete. Improve.**
+
+OrbitFlow is an offline-first Flutter app that combines study planning, focus sessions, tasks, reminders, and progress insights — for students, professionals, and hybrid users.
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
-[![Platform](https://img.shields.io/badge/Android-phone%20%26%20tablet-3DDC84?logo=android&logoColor=white)](#platform-status)
-[![Tests](https://img.shields.io/badge/tests-27%2F27%20passing-success)](#testing)
-[![License](https://img.shields.io/badge/license-not%20yet%20specified-lightgrey)](#license)
+[![Android](https://img.shields.io/badge/Android-validated-3DDC84?logo=android&logoColor=white)](#platform-status)
+[![Tests](https://img.shields.io/badge/tests-27%2F27-success)](#quality)
 
-[Download Android APK](https://github.com/anandr-git/orbitflow/releases/latest) · [Features](#features) · [Quick Start](#quick-start) · [Architecture](#architecture)
+[Download Android APK](https://github.com/anandr-git/orbitflow/releases/latest) · [Features](#features) · [Screenshots](#screenshots)
 
 </div>
 
 ---
 
-OrbitFlow is a Flutter app that brings **study planning**, **focus sessions**, **tasks**, **reminders**, **weekly planning**, and **progress insights** into one coherent workflow. It is built for students, professionals, and hybrid users — not a study-only tool.
+## Download
+
+**[Download the latest Android APK](https://github.com/anandr-git/orbitflow/releases/latest)**
+
+Validated on Android phone and Pad-class tablet layouts.
 
 ---
 
-## The OrbitFlow Loop
+## Why OrbitFlow?
+
+Most people juggle a planner, a to-do list, a timer, and scattered notes. OrbitFlow keeps study planning, focused work, tasks, reminders, and progress tracking in one personal productivity system — useful for exam prep, work deadlines, or both in the same day.
 
 ```text
-Plan → Schedule → Get reminded → Focus → Complete → Review progress → Improve the next plan
+Plan → Schedule → Get reminded → Focus → Complete → Review → Improve
 ```
-
-OrbitFlow turns planning into an ongoing loop: schedule focused blocks, execute them with Focus mode, recover missed sessions, then use Insights to tighten the next plan. Tasks sit alongside study so work and learning share one system.
 
 ---
 
 ## Features
 
-### Study
+| Study | Productivity |
+|---|---|
+| Subjects & topics | Tasks & priorities |
+| Study sessions | Deadlines |
+| Focus mode | Search / filters |
+| Goals & streaks | Recurring tasks |
+| Progress insights | Subtasks |
+| Missed-session recovery | Archive |
 
-- Subjects & topics
-- Study sessions (duration, reminders, recurrence)
-- Focus mode (start / pause / resume / finish)
-- Pomodoro-friendly timed blocks
-- Daily & weekly goals
-- Streaks
-- Progress analytics
-- Missed-session recovery (complete, reschedule, skip)
+| Planning | Notifications |
+|---|---|
+| Today | Session reminders |
+| Week | Start alerts |
+| Day agenda | Missed-session alerts |
+| Monthly insights | Quiet hours |
 
-### Productivity
-
-- Tasks with priorities & categories
-- Deadlines
-- Search, filters & sorting
-- Archive
-- Recurring tasks
-- Subtasks on task details
-
-### Planning
-
-- Today dashboard
-- Week planner
-- Day agenda
-- Monthly insights
-- Up Next
-- Planned vs actual
-
-### Notifications
-
-- Session reminders
-- Start-time alerts
-- Missed-session alerts
-- Evening summaries
-- Quiet hours
-
-### Personalization
-
-- Light / Dark / System theme
-- Accent colors
-- Reduce motion
-- Onboarding focus: Study · Work · Study + Work · Personal
-
-### Data
-
-- Offline-first local persistence
-- JSON import / export backup
-- Optional sample preview data (confirm-gated; not real history)
+Themes: light / dark / system · accent colors · reduce motion · local backup import/export
 
 ---
 
-## Who is it for?
+## Screenshots
 
-### Students
+Sample preview data — not real user history.
 
-- Exam preparation
-- Subject & topic tracking
-- Study schedules
-- Consistency & revision streaks
-
-### Professionals
-
-- Work tasks & deadlines
-- Project planning
-- Focus blocks
-- Learning & certifications
-
-### Hybrid users
-
-- Work during the day
-- Study in the evening
-- One productivity system for both
-
-OrbitFlow is **not only a study app** — Tasks are a first-class surface beside Study, Week, and Insights.
-
----
-
-## Experience OrbitFlow
-
-Screenshots use **sample / preview data** for demonstration. They are not real user history.
-
-### Study Dashboard
-
-Today’s plan, progress toward goals, current/up-next session, and missed-session recovery in one place.
-
-![OrbitFlow Study Dashboard](docs/screenshots/readme/study-home.png)
-
-### Focus Mode
-
-Timed focus blocks with start / finish controls for deep work sessions.
-
-![OrbitFlow Focus Mode](docs/screenshots/readme/focus.png)
-
-### Tasks
-
-Priorities, categories, filters, and a clear task inbox for study and personal work.
-
-![OrbitFlow Tasks](docs/screenshots/readme/tasks.png)
-
-### Week Planning
-
-Week-level planned vs done progress across each day.
-
-![OrbitFlow Week Planning](docs/screenshots/readme/week.png)
-
-### Insights
-
-Monthly calendar heat, consistency streaks, and actionable signals.
-
-![OrbitFlow Insights](docs/screenshots/readme/insights.png)
-
-### Subjects & Topics
-
-Track subjects with topic counts and hour targets.
-
-![OrbitFlow Subjects](docs/screenshots/readme/subjects.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Study Dashboard</strong><br><br>
+      <img src="docs/screenshots/readme/study-home.png" width="300" alt="Study Dashboard">
+    </td>
+    <td align="center" width="50%">
+      <strong>Focus Mode</strong><br><br>
+      <img src="docs/screenshots/readme/focus.png" width="300" alt="Focus Mode">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Task Management</strong><br><br>
+      <img src="docs/screenshots/readme/tasks.png" width="300" alt="Tasks">
+    </td>
+    <td align="center" width="50%">
+      <strong>Weekly Planning</strong><br><br>
+      <img src="docs/screenshots/readme/week.png" width="300" alt="Week Planner">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Insights</strong><br><br>
+      <img src="docs/screenshots/readme/insights.png" width="300" alt="Insights">
+    </td>
+    <td align="center" width="50%">
+      <strong>Subjects & Topics</strong><br><br>
+      <img src="docs/screenshots/readme/subjects.png" width="300" alt="Subjects">
+    </td>
+  </tr>
+</table>
 
 ### Dark Mode
 
-OrbitFlow’s dark theme across the Study experience.
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Study</strong><br><br>
+      <img src="docs/screenshots/readme/dark-study.png" width="300" alt="Dark Study">
+    </td>
+    <td align="center" width="50%">
+      <strong>Insights</strong><br><br>
+      <img src="docs/screenshots/readme/dark-insights.png" width="300" alt="Dark Insights">
+    </td>
+  </tr>
+</table>
 
-![OrbitFlow Dark Mode](docs/screenshots/readme/dark-mode.png)
-
-Additional captures (tablet metrics, notification shade, intermediate QA) live under `docs/screenshots/testing/`.
-
----
-
-## Install on Android
-
-**Latest release:** [OrbitFlow v3.1.0 on GitHub Releases](https://github.com/anandr-git/orbitflow/releases/latest)
-
-1. Download `OrbitFlow-Android.apk` from the [latest GitHub Release](https://github.com/anandr-git/orbitflow/releases/latest).
-2. Open the APK on your Android phone or tablet.
-3. Allow installation from that source when Android prompts you.
-4. Launch **OrbitFlow**.
-
-No root or unsafe sideload bypasses are required — use the normal Android install flow for unknown apps from a trusted release page.
-
-SHA-256 of the current Android APK:
-
-`d50169ebb6d1ae72f3a3abf73a405012c3a07beecdd7638116ca42ba6f4f348a`
+More captures: [`docs/screenshots/testing/`](docs/screenshots/testing/)
 
 ---
 
-## Quick Start
-
-For developers:
+## Development
 
 ```bash
 git clone https://github.com/anandr-git/orbitflow.git
@@ -190,31 +124,10 @@ flutter pub get
 flutter run
 ```
 
-Quality checks:
-
 ```bash
 flutter analyze
 flutter test
-```
-
----
-
-## Build from Source
-
-```bash
-flutter pub get
-flutter analyze
-flutter test
-flutter run
-```
-
-Release APK (Android — validated on this project):
-
-```bash
 flutter build apk --release
-mkdir -p dist
-cp build/app/outputs/flutter-apk/app-release.apk dist/OrbitFlow-Android.apk
-sha256sum dist/OrbitFlow-Android.apk
 ```
 
 ---
@@ -222,101 +135,61 @@ sha256sum dist/OrbitFlow-Android.apk
 ## Platform Status
 
 | Platform | Status |
-|----------|--------|
+|---|---|
 | Android phone | Validated |
-| Android tablet | Validated (Pad-class metrics) |
-| Web | Builds; smoke-tested (limitations, esp. notifications) |
-| Linux | Builds; interactive QA limited |
-| Windows | Source present — not tested |
-| macOS | Source present — not tested |
-| iOS | Source present — not tested |
+| Android tablet | Validated |
+| Web | Smoke-tested |
+| Linux | Build validated |
+| Windows | Not yet tested |
+| macOS | Not yet tested |
+| iOS | Not yet tested |
 
-Details: [`docs/PLATFORM_MATRIX.md`](docs/PLATFORM_MATRIX.md) · [`docs/RELEASE_TEST_REPORT.md`](docs/RELEASE_TEST_REPORT.md)
+[Platform matrix →](docs/PLATFORM_MATRIX.md)
 
 ---
 
 ## Architecture
 
-```text
-lib/
-├── analytics/     # Study analytics & insights helpers
-├── data/          # Demo / sample preview data
-├── models/        # Subjects, sessions, todos, settings
-├── screens/       # Study, Tasks, Week, Insights, Focus, Settings, …
-├── services/      # Local notifications
-├── state/         # OrbitController (app state)
-├── storage/       # SharedPreferences-backed persistence
-├── theme/         # Material 3 themes & design tokens
-├── utils/         # Date, query, responsive helpers
-├── widgets/       # Shared UI pieces
-└── main.dart
-```
+OrbitFlow is built with Flutter/Dart using an offline-first architecture with structured models, centralized state, local persistence, Material 3 theming, responsive layouts, and local notifications.
 
-Platform folders: `android/`, `ios/`, `linux/`, `macos/`, `windows/`, `web/`.
+[View architecture documentation →](docs/ARCHITECTURE.md)
 
 ---
 
-## Privacy & Data
+## Privacy
 
-OrbitFlow is **offline-first**. Sessions, tasks, subjects, and settings are stored locally (currently via `SharedPreferences` JSON).
+OrbitFlow is currently offline-first. Core tasks, sessions, subjects, and settings are stored locally. There is no OrbitFlow cloud account in the current build.
 
-- **Export** copies a JSON backup to the clipboard.
-- **Import** replaces local data from a pasted backup (validated).
-- There is **no OrbitFlow cloud account** in the current build.
-- Local notifications stay on-device.
-- Release APKs do not declare `INTERNET` for app features (debug tooling may differ).
-
-“Offline-first” is a product design choice, not a formal security certification. See [`docs/SECURITY_AUDIT.md`](docs/SECURITY_AUDIT.md).
+[Privacy / data details →](docs/SECURITY_AUDIT.md)
 
 ---
 
-## Testing
+## Quality
 
-Verified on the release-prep host:
+- `flutter analyze` — clean
+- `flutter test` — 27/27 passed
+- Android release APK tested on Pixel-class emulator
+- Android tablet layout validated
 
-```text
-flutter analyze   → clean
-flutter test      → 27/27 passed
-```
-
-Also validated:
-
-- Android release APK install & launch (Pixel_8 emulator)
-- Android tablet layout metrics
-
-No CI workflows are claimed in this repository yet.
+[Release test report →](docs/RELEASE_TEST_REPORT.md)
 
 ---
 
 ## Roadmap
 
-Realistic next directions:
-
-- Expanded cross-platform validation (desktop / iOS)
 - Richer desktop layouts
-- More planning views
+- Deeper calendar planning
+- Broader cross-platform validation
 - Additional productivity workflows
 
 ---
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make focused changes
-4. Run `flutter analyze` and `flutter test`
-5. Open a pull request
-
-Please preserve offline-first behavior and avoid committing build artifacts, keystores, or secrets.
+Fork → branch → change → `flutter analyze` / `flutter test` → PR. Keep changes focused and preserve offline-first behavior.
 
 ---
 
 ## License
 
 License: **not yet specified**
-
----
-
-## Compatibility note
-
-The visible product name is **OrbitFlow**. For install continuity, the Android `applicationId` remains `com.example.my_first_testing_app` until a deliberate package-id migration is planned.
